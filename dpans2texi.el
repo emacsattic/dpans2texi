@@ -1660,6 +1660,7 @@ This would probably be better done with a diff.  Oh, well."
       (setq dp-chapter-list nil))
     (write-region (point-min) (point-max) "temp.texi")))
 
+(provide 'dpans2texi)
 ;;; Local Variables: ***
 ;;; mode:emacs-lisp ***
 ;;; coding:utf-8 ***
